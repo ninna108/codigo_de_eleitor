@@ -1,0 +1,26 @@
+public class Eleitor
+{
+     int idade;
+     
+    public void checar(int i)
+    {
+        idade = 1;
+        
+        if(idade<16)
+        {
+            System.out.println("voce tem" + idade + "anos e nao podera votar");
+        }
+         else if(idade>=16 & idade < 18)
+         {
+             System.out.println("voce tem " + idade + "anos e podera votar");
+         }
+          else if(idade>=18 & idade>70)
+          {
+              System.out.println("voce tem" + idade + "anos e tem que votar");
+          }
+           else
+           {
+               System.out.println("voce tem " + idade + "anos e nao precisa votar");
+           }
+    }
+}

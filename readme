@@ -1,0 +1,19 @@
+Este projeto tem como objetivo desenvolver um programa que verifica a elegibilidade de um eleitor com base em sua idade. Ele recebe a idade como entrada e determina se a pessoa está apta a votar, se o voto é opcional ou se não pode votar.
+
+Funcionalidades
+
+Verifica a elegibilidade para votação com base na idade.
+
+Classifica o voto como:
+
+Obrigatório (entre 18 e 70 anos).
+
+Opcional (16-17 anos ou acima de 70 anos).
+
+Não permitido (menores de 16 anos).
+
+Exibe mensagens informativas sobre a condição do eleitor.
+
+Tecnologias Utilizadas
+
+JavaScript (ou outra linguagem, conforme o código no repositório).
